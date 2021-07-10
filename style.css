@@ -1,0 +1,324 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(45deg, #ee7ca3, #f8d7a2);
+}
+.singUP{
+	display: grid;
+	width: 80%;
+	margin: auto;
+	height: 69vh;
+	grid-template-columns: 40% 40%;
+	grid-template-rows: 65.5vh;
+	padding: 15vh 0 0 0;
+	justify-content: center;
+}
+.gradie{
+	grid-column: 1;
+	grid-row: 1;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background: #013342;
+	padding: 6vh 0;
+	border-radius: 2vh 0 0 2vh;
+}
+.title{
+	color: white;
+	font-family: system-ui;
+	font-weight: 700;
+}
+.subTitle{
+	color: white;
+	opacity: 0.7;
+	font-family: system-ui;
+}
+.mockupPhone{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.iphoneMockup{
+	max-width: 40vh;
+}
+.login{
+	padding: 6vh 0;
+	background: white;
+	grid-column: 2;
+	grid-row: 1;
+	border-radius: 0 2vh 2vh 0;
+}
+.containerLogin{
+	width: 80%;
+	margin: auto;
+}
+.titleLogin{
+	font-family: system-ui;
+	font-weight: 700;
+}
+.emailInput{
+	display: block;
+	padding: 2vh 0;
+	font-weight: 700;
+	font-family: system-ui;
+	font-size: 15px;
+}
+.email{
+	width: 90%;
+	display: block;
+	height: 5vh;
+	border-radius: 1vh;
+	outline: none;
+	border: 2px solid lightgrey;
+	padding: 0 2vh;
+}
+.passwordInput{
+	display: block;
+	padding: 2vh 0;
+	font-weight: 700;
+	font-family: system-ui;
+	font-size: 15px;
+}
+.password{
+	display: block;
+	width: 90%;
+	height: 5vh;
+	border-radius: 1vh;
+	outline: none;
+	border: 2px solid lightgrey;
+	padding: 0 2vh;
+}
+.checkbox{
+	margin: 2vh 2vh 0 0;
+	text-align: center;
+}
+.textFormat{
+	text-decoration: underline;
+	color: #013342;
+	font-family: system-ui;
+	font-weight: 700;
+}
+.createAccount{
+	display: block;
+	width: 80%;
+	margin: 2vh auto;
+	height: 7vh;
+	border-radius: 1vh;
+	border: none;
+	font-weight: 700;
+	color: white;
+	font-family: system-ui;
+	background: #013342;
+}
+@media (max-width: 375px){
+	.container{
+		height: 100vh;
+		width: 100%;
+	}
+	.singUP{
+		display: grid;
+		width: 90%;
+		margin: auto;
+		height: 127vh;
+		grid-template-columns: 100%;
+		grid-template-rows: 67vh 60vh;
+		padding: 5vh 0;
+		justify-content: center;
+	}
+	.gradie{
+		grid-column: 1;
+		grid-row: 1;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		background: #013342;
+		padding: 6vh 0 0 0;
+		border-radius: 2vh 2vh 0 0;
+	}
+	.login {
+		padding: 6vh 0;
+		background: white;
+		grid-column: 1;
+		grid-row: 2;
+		border-radius: 0 0 2vh 2vh;
+	}
+	.containerLogin{
+		width: 80%;
+		margin: auto;
+	}
+	.titleLogin{
+		font-family: system-ui;
+		font-weight: 700;
+	}
+	.emailInput{
+		display: block;
+		padding: 2vh 0;
+		font-weight: 700;
+		font-family: system-ui;
+		font-size: 15px;
+	}
+	.email{
+		width: 90%;
+		display: block;
+		height: 5vh;
+		border-radius: 1vh;
+		outline: none;
+		border: 2px solid lightgrey;
+		padding: 0 2vh;
+	}
+	.passwordInput{
+		display: block;
+		padding: 2vh 0;
+		font-weight: 700;
+		font-family: system-ui;
+		font-size: 15px;
+	}
+	.password{
+		display: block;
+		width: 90%;
+		height: 5vh;
+		border-radius: 1vh;
+		outline: none;
+		border: 2px solid lightgrey;
+		padding: 0 2vh;
+	}
+	.checkbox{
+		margin: 2vh 2vh 0 0;
+		text-align: center;
+	}
+	.textFormat{
+		text-decoration: underline;
+		color: #013342;
+		font-family: system-ui;
+		font-weight: 700;
+	}
+	.createAccount{
+		display: block;
+		width: 80%;
+		margin: 2vh auto;
+		height: 7vh;
+		border-radius: 1vh;
+		border: none;
+		font-weight: 700;
+		color: white;
+		font-family: system-ui;
+		background: #013342;
+	}
+}
+@media (max-width: 1000px) and (min-width: 375px){
+	.container{
+		height: 100vh;
+		width: 100%;
+	}
+	.singUP{
+		display: grid;
+		width: 80%;
+		margin: auto;
+		height: 69vh;
+		grid-template-columns: 40% 40%;
+		grid-template-rows: 67vh;
+		padding: 15vh 0 0 0;
+		justify-content: center;
+	}
+	.gradie{
+		grid-column: 1;
+		grid-row: 1;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		background: #013342;
+		padding: 6vh 0;
+		border-radius: 2vh 0 0 2vh;
+	}
+	.title{
+		color: white;
+		font-family: system-ui;
+		font-weight: 700;
+	}
+	.subTitle{
+		color: white;
+		opacity: 0.7;
+		font-family: system-ui;
+	}
+	.mockupPhone{
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.iphoneMockup{
+		max-width: 40vh;
+	}
+	.login{
+		padding: 6vh 0;
+		background: white;
+		grid-column: 2;
+		grid-row: 1;
+		border-radius: 0 2vh 2vh 0;
+	}
+	.containerLogin{
+		width: 80%;
+		margin: auto;
+	}
+	.titleLogin{
+		font-family: system-ui;
+		font-weight: 700;
+	}
+	.emailInput{
+		display: block;
+		padding: 2vh 0;
+		font-weight: 700;
+		font-family: system-ui;
+		font-size: 15px;
+	}
+	.email{
+		width: 90%;
+		display: block;
+		height: 5vh;
+		border-radius: 1vh;
+		outline: none;
+		border: 2px solid lightgrey;
+		padding: 0 2vh;
+	}
+	.passwordInput{
+		display: block;
+		padding: 2vh 0;
+		font-weight: 700;
+		font-family: system-ui;
+		font-size: 15px;
+	}
+	.password{
+		display: block;
+		width: 90%;
+		height: 5vh;
+		border-radius: 1vh;
+		outline: none;
+		border: 2px solid lightgrey;
+		padding: 0 2vh;
+	}
+	.checkbox{
+		margin: 2vh 2vh 0 0;
+		text-align: center;
+	}
+	.textFormat{
+		text-decoration: underline;
+		color: #013342;
+		font-family: system-ui;
+		font-weight: 700;
+	}
+	.createAccount{
+		display: block;
+		width: 80%;
+		margin: 2vh auto;
+		height: 7vh;
+		border-radius: 1vh;
+		border: none;
+		font-weight: 700;
+		color: white;
+		font-family: system-ui;
+		background: #013342;
+	}
+}
